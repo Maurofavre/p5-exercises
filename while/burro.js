@@ -5,10 +5,13 @@
 // ⚠️Importante: El programa deberá identificar como verdadero tanto “Si”, como “SI”, como “si”.
 
 let burro = prompt("Ya merito llegamos?");
-let result = burro.toLowerCase();
+burro = burro.toLowerCase(); // Lleva la respuesta a minuscula 
 
-while (result != "si") {
+
+while (burro != "si") {
   alert("Y ahora?");
-  result = prompt("Ya merito llegamos?");
+  burro = prompt("Ya merito llegamos?");
+  burro = burro.toLowerCase();
 }
 alert("Bienvenido a muuy muy lejano");
+
