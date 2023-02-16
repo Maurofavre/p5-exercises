@@ -1,3 +1,5 @@
+//Ejercicio cual es mayor
+
 let num1 = parseInt(prompt("ingrese un numero del 0 al 50"));
 let num2 = parseInt(prompt("ingrese un numero del 0 al 50"));
 
