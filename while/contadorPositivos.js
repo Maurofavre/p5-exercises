@@ -1,3 +1,7 @@
+//Contador De Positivos
+// Crear un programa que le pida al usuario que ingrese un número entero. El programa terminará cuando se ingrese un número negativo.
+// Al terminar, mostrale un mensaje con la cantidad de números positivos que ingresó.
+
 let numero = parseInt(prompt("Ingrese un numero"));
 let acumulador = 0;
 
